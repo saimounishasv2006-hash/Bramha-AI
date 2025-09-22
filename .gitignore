@@ -1,0 +1,77 @@
+# --- Node.js ---
+node_modules/
+**/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+/dist/
+**/dist/
+/build/
+**/build/
+.out/
+**/.out/
+.next/
+**/.next/
+.nuxt/
+**/.nuxt/
+.vercel/
+**/.vercel/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Caches
+.cache/
+.eslintcache
+
+# --- Python ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.python-version
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE/editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Archives & temp ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Temporary files
+.tmp/
+**/.tmp/
+tmp/
+**/tmp/
+.temp/
+**/.temp/
+
+# Project-specific generated files
+output.json
